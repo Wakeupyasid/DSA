@@ -32,7 +32,7 @@ public class lc1822 {
                 ans=-1;
             }
         }
-        
+
 //        List<Integer> a=new ArrayList<>();
 //        for (int i=0;i<nums.length;i++){
 //            a.add(nums[i]);
