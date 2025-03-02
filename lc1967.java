@@ -1,9 +1,5 @@
-import java.awt.*;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-
-public class Prac {
+public class lc1967 {
+//    1967. Number of Strings That Appear as Substrings in Word
     public static void main(String[] args) {
         String patterns[]={"a","b","c"};
         String word="aaaaabbbbb";
