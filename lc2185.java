@@ -1,8 +1,5 @@
-import java.awt.*;
-import java.util.ArrayList;
-import java.util.Arrays;
-
-public class Prac {
+public class lc2185 {
+//    2185. Counting Words With a Given Prefix
     public static void main(String[] args) {
         String []words={"pay","attention","practice","attend"};
         String pref="at";
