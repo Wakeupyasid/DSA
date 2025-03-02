@@ -6,17 +6,16 @@ import java.util.List;
 
 public class Prac {
     public static void main(String[] args) {
-        int nums[]={1,5,4,5};
-        int ans=0;
-        List<Integer>a=new ArrayList<>();
-        for (int i=0;i< nums.length-1;i++){
-            for (int j=i+1;j<nums.length;j++){
-                int k=(nums[i]-1)*(nums[j]-1);
-                a.add(k);
+        int nums[]={7,1,5,4,3,4,6,0,9,5,8,2};
+        // 0 0 1 1
+        int ans[]=new int[2];
+        int k=0;
+        Arrays.sort(nums);
+        for (int i=0;i<nums.length-1;i++){
+            if (nums[i]==nums[i+1]){
+                ans[k++]=nums[i];
             }
         }
-        Collections.sort(a);
-        ans=a.getLast();
-        System.out.println(ans);
+        System.out.println(Arrays.toString(ans));
     }
 }
