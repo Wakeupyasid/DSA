@@ -1,21 +1,20 @@
 import java.awt.*;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
+import java.util.*;
 import java.util.List;
 
 public class Prac {
     public static void main(String[] args) {
-        int nums[]={7,1,5,4,3,4,6,0,9,5,8,2};
-        // 0 0 1 1
-        int ans[]=new int[2];
-        int k=0;
-        Arrays.sort(nums);
-        for (int i=0;i<nums.length-1;i++){
-            if (nums[i]==nums[i+1]){
-                ans[k++]=nums[i];
-            }
+        String s="zaz";
+        int ans=0;
+        List<Integer>a=new ArrayList<>();
+        for (int i=0;i<s.length();i++){
+            int t=(int)s.charAt(i);
+            a.add(t);
         }
-        System.out.println(Arrays.toString(ans));
+        for (int i=0;i<a.size()-1;i++){
+            int t=Math.abs(a.get(i+1)-a.get(i));
+            ans=ans+t;
+        }
+        System.out.println(ans);
     }
 }
