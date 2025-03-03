@@ -1,8 +1,5 @@
-import java.awt.*;
-import java.util.*;
-import java.util.List;
-
-public class Prac {
+public class lc2108 {
+//    2108. Find First Palindromic String in the Array
     public static void main(String[] args) {
         String words[]={"def","ghi"};
         String ans="";
@@ -12,7 +9,7 @@ public class Prac {
                 a.reverse();
                 if (words[i].equals(a.toString())){
                     ans=words[i];
-                     break;
+                    break;
                 }
             }
         }
