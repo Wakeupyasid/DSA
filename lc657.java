@@ -1,8 +1,5 @@
-import java.awt.*;
-import java.util.*;
-import java.util.List;
-
-public class Prac {
+public class lc657 {
+//    657. Robot Return to Origin
     public static void main(String[] args) {
         String moves="LL";
         int cu=0;
