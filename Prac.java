@@ -4,28 +4,15 @@ import java.util.List;
 
 public class Prac {
     public static void main(String[] args) {
-        String moves="LL";
-        int cu=0;
-        int cd=0;
-        int cl=0;
-        int cr=0;
-        boolean ans=false;
-        for (int i=0;i<moves.length();i++){
-            if (moves.charAt(i)=='U'){
-                cu++;
+        int nums[]={1,2,2,1};
+        int k=1;
+        int ans=0;
+        for (int i=0;i<nums.length;i++){
+            for(int j=0;j< nums.length;j++){
+                if (i<j && Math.abs(nums[i] - nums[j]) == k){
+                    ans++;
+                }
             }
-            else if (moves.charAt(i)=='D') {
-                cd++;
-            }
-            else if (moves.charAt(i)=='L') {
-                cl++;
-            }
-            else if (moves.charAt(i)=='R') {
-                cr++;
-            }
-        }
-        if (cu==cd && cl==cr){
-            ans=true;
         }
         System.out.println(ans);
     }
