@@ -4,26 +4,18 @@ import java.util.List;
 
 public class Prac {
     public static void main(String[] args) {
-        String words[]={"hey","aeo","mu","ooo","artro"};
-        int left=1;
-        int right=4;
-        int ans=0;
-        for (int i=left;i<=right;i++){
-            char a=words[i].charAt(0);
-            char b=words[i].charAt(words[i].length()-1);
-            int a1=0;
-            if (a == 'a' || a == 'e' || a == 'i' || a == 'o'
-                    || a == 'u'){
-                a1++;
+        int nums[]={-2,-1,-1,1,2,3};
+        int ps=0;
+        int ns=0;
+        for (int i=0;i< nums.length;i++){
+            if (nums[i]>0){
+                ps++;
             }
-            if (b == 'a' || b == 'e' || b == 'i' || b == 'o'
-                    || b == 'u'){
-                a1++;
-            }
-            if (a1==2){
-                ans++;
+            if (nums[i]<0){
+                ns++;
             }
         }
+        int ans=Math.max(ps,ns);
         System.out.println(ans);
     }
 }
