@@ -4,14 +4,24 @@ import java.util.List;
 
 public class Prac {
     public static void main(String[] args) {
-        int nums[]={1,2,2,1};
-        int k=1;
+        String words[]={"hey","aeo","mu","ooo","artro"};
+        int left=1;
+        int right=4;
         int ans=0;
-        for (int i=0;i<nums.length;i++){
-            for(int j=0;j< nums.length;j++){
-                if (i<j && Math.abs(nums[i] - nums[j]) == k){
-                    ans++;
-                }
+        for (int i=left;i<=right;i++){
+            char a=words[i].charAt(0);
+            char b=words[i].charAt(words[i].length()-1);
+            int a1=0;
+            if (a == 'a' || a == 'e' || a == 'i' || a == 'o'
+                    || a == 'u'){
+                a1++;
+            }
+            if (b == 'a' || b == 'e' || b == 'i' || b == 'o'
+                    || b == 'u'){
+                a1++;
+            }
+            if (a1==2){
+                ans++;
             }
         }
         System.out.println(ans);
