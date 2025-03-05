@@ -4,18 +4,15 @@ import java.util.List;
 
 public class Prac {
     public static void main(String[] args) {
-        int nums[]={-2,-1,-1,1,2,3};
-        int ps=0;
-        int ns=0;
-        for (int i=0;i< nums.length;i++){
-            if (nums[i]>0){
-                ps++;
-            }
-            if (nums[i]<0){
-                ns++;
-            }
+        String []sentences={"alice and bob love leetcode", "i think so too", "this is great thanks very much"};
+        int ans=0;
+        List<Integer>a=new ArrayList<>();
+        for (int i=0;i< sentences.length;i++){
+            String t[]=sentences[i].split(" ");
+            a.add(t.length);
         }
-        int ans=Math.max(ps,ns);
+        Collections.sort(a);
+        ans=a.getLast();
         System.out.println(ans);
     }
 }
