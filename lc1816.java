@@ -1,8 +1,5 @@
-import java.awt.*;
-import java.util.*;
-import java.util.List;
-
-public class Prac {
+public class lc1816 {
+//    1816. Truncate Sentence
     public static void main(String[] args) {
         String s="Hello how are you Contestant";
         int k=4;
