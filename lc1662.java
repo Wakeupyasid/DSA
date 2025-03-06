@@ -1,8 +1,5 @@
-import java.awt.*;
-import java.util.*;
-import java.util.List;
-
-public class Prac {
+public class lc1662 {
+//    1662. Check If Two String Arrays are Equivalent
     public static void main(String[] args) {
         String word1[]={"abc", "d", "defg"};
         String word2[]={"abcddefg"};
