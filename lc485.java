@@ -1,8 +1,5 @@
-import java.awt.*;
-import java.util.*;
-import java.util.List;
-
-public class Prac {
+public class lc485 {
+    //    485. Max Consecutive Ones
     public static void main(String[] args) {
         int nums[]={1,1,0,0,1,1,1,1};
         int ans=0;
