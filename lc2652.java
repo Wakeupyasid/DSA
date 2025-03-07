@@ -1,8 +1,5 @@
-import java.awt.*;
-import java.util.*;
-import java.util.List;
-
-public class Prac {
+public class lc2652 {
+//    2652. Sum Multiples
     public static void main(String[] args) {
         int n=7;
         int ans=0;
