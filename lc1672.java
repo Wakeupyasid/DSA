@@ -1,8 +1,5 @@
-import java.awt.*;
-import java.util.*;
-import java.util.List;
-
-public class Prac {
+public class lc1672 {
+//    1672. Richest Customer Wealth
     public static void main(String[] args) {
         int accounts[][]={{1,2,3},{3,2,1}};
         int ans=0;
