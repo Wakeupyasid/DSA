@@ -1,8 +1,5 @@
-import java.awt.*;
-import java.util.*;
-import java.util.List;
-
-public class Prac {
+public class lc1550 {
+//    1550. Three Consecutive Odds
     public static void main(String[] args) {
         int arr[]={1,2,34,3,4,5,7,23,12};
         boolean ans=false;
@@ -16,4 +13,5 @@ public class Prac {
         }
         System.out.println(ans);
     }
+
 }
