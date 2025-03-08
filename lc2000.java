@@ -1,13 +1,12 @@
-import java.awt.*;
-import java.util.*;
-import java.util.List;
+import java.util.Stack;
 
-public class Prac {
+public class lc2000 {
+//    2000. Reverse Prefix of Word
     public static void main(String[] args) {
         String word="abcdefg";
         char ch='d';
         String res="";
-        Stack<Character>a=new Stack<>();
+        Stack<Character> a=new Stack<>();
         for (int i=0;i<word.length();i++){
             char t=word.charAt(i);
             a.push(t);
