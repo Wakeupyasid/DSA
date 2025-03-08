@@ -1,8 +1,7 @@
-import java.awt.*;
-import java.util.*;
-import java.util.List;
+import java.util.Arrays;
 
-public class Prac {
+public class lc2643 {
+//    2643. Row With Maximum Ones
     public static void main(String[] args) {
         int mat[][]={{0,0},{1,1},{0,0}};
         int ans[]=new int[2];
@@ -23,4 +22,5 @@ public class Prac {
         }
         System.out.println(Arrays.toString(ans));
     }
+
 }
