@@ -4,17 +4,23 @@ import java.util.List;
 
 public class Prac {
     public static void main(String[] args) {
-        int nums[]={0,1};
-        int ans=0;
+        int arr[]={-3,0,1,-3,1,1,1,-3,10,0};
         List<Integer>a=new ArrayList<>();
-        for (int i = 0; i < nums.length; i++) {
-            a.add(nums[i]);
-        }
-        for (int i=1;i<=nums.length;i++){
-            if (!a.contains(i)){
-                ans=i;
+        Arrays.sort(arr);
+        boolean ans=true;
+        for (int i=0;i<arr.length;i++){
+            int c=0;
+            for (int j=i ;j<arr.length;j++){
+                if (arr[j]==arr[i]){
+                    c++;
+                }
+            }
+            if (a.contains(c)){
+                ans=false;
                 break;
             }
+            i=i+c-1;
+            a.add(c);
         }
         System.out.println(ans);
     }
