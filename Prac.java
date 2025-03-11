@@ -4,19 +4,12 @@ import java.util.List;
 
 public class Prac {
     public static void main(String[] args) {
-         int num=1;
-         boolean ans=false;
-         if (num==1){
-             ans=true;
-         }
-         else {
-             for (int i =1;i<=num/2;i++){
-                 if (i*i==num){
-                     ans=true;
-                     break;
-                 }
-                 if (i*i>num){
-                     break;
+         int grid[][]={{4,3,2,-1},{3,2,1,-1},{1,1,-1,-2},{-1,-1,-2,-3}};
+         int ans=0;
+         for (int i=0;i< grid.length;i++){
+             for (int j=0;j<grid[i].length;j++){
+                 if (grid[i][j]<0){
+                     ans++;
                  }
              }
          }
