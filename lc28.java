@@ -1,8 +1,5 @@
-import java.awt.*;
-import java.util.*;
-import java.util.List;
-
-public class Prac {
+public class lc28 {
+    // 28. Find the Index of the First Occurrence in a String
     public static void main(String[] args) {
         String haystack="sadbutsad";
         String needle="needle";
