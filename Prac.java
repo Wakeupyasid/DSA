@@ -4,14 +4,22 @@ import java.util.List;
 
 public class Prac {
     public static void main(String[] args) {
-         int nums[]={1};
-         Arrays.sort(nums);
-         List<Integer>ans=new ArrayList<>();
-         for (int i=0;i<nums.length-1;i++){
-             if (nums[i]==nums[i+1] && !ans.contains(nums[i])){
-                 ans.add(nums[i]);
-             }
-         }
+        int nums[]={1,1,1,1,1};
+        int ans=0;
+        HashMap<Integer,Integer>hm=new HashMap<>();
+        for (int i =0;i< nums.length;i++){
+            if (hm.containsKey(nums[i])){
+                hm.put(nums[i],hm.get(nums[i])+1);
+            }
+            else
+                hm.put(nums[i],1);
+        }
+        for (Map.Entry<Integer,Integer> e: hm.entrySet()){
+            if (e.getValue()==1){
+                ans=ans+e.getKey();
+            }
+        }
         System.out.println(ans);
+
     }
 }
