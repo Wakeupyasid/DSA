@@ -4,14 +4,13 @@ import java.util.List;
 
 public class Prac {
     public static void main(String[] args) {
-         int nums[]={7,9,7,4,2,8,7,7,1,5};
+         int nums[]={1};
          Arrays.sort(nums);
-         int ans=0;
+         List<Integer>ans=new ArrayList<>();
          for (int i=0;i<nums.length-1;i++){
-            if (nums[i]==nums[i+1]){
-                ans=nums[i];
-                break;
-            }
+             if (nums[i]==nums[i+1] && !ans.contains(nums[i])){
+                 ans.add(nums[i]);
+             }
          }
         System.out.println(ans);
     }
