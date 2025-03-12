@@ -1,12 +1,12 @@
-import java.awt.*;
-import java.util.*;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
-public class Prac {
+public class lc169 {
+//    169. Majority Element
     public static void main(String[] args) {
         int nums[]={2,2,1,1,1,2,2};
         int ans=0;
-        HashMap<Integer,Integer>hm=new HashMap<>();
+        HashMap<Integer,Integer> hm=new HashMap<>();
         for (int i =0;i< nums.length;i++){
             if (hm.containsKey(nums[i])){
                 hm.put(nums[i],hm.get(nums[i])+1);
