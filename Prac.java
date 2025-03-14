@@ -4,19 +4,20 @@ import java.util.List;
 
 public class Prac {
     public static void main(String[] args) {
-        int nums[]={2,2,1,1,1,2,2};
-        int ans=0;
-        HashMap<Integer,Integer>hm=new HashMap<>();
-        for (int i =0;i< nums.length;i++){
-            if (hm.containsKey(nums[i])){
-                hm.put(nums[i],hm.get(nums[i])+1);
+        int matrix[][]={{1,3,5,7},{10,11,16,20},{23,30,34,60}};
+        int target=13;
+        boolean ans=false;
+        for (int i=0;i< matrix.length;i++){
+            if (matrix[i][matrix[i].length-1]>=target){
+                for (int j=0;j<matrix[i].length;j++){
+                    if (matrix[i][j]==target){
+                        ans=true;
+                        break;
+                    }
+                }
             }
-            else
-                hm.put(nums[i],1);
-        }
-        for (Map.Entry<Integer,Integer> e: hm.entrySet()){
-            if (e.getValue()>nums.length/2){
-                ans=e.getKey();
+            if (matrix[i][matrix[i].length-1]<target){
+                break;
             }
         }
         System.out.println(ans);
