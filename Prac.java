@@ -4,15 +4,19 @@ import java.util.List;
 
 public class Prac {
     public static void main(String[] args) {
-        char s[]={'h','e','l','l','o'};
-        int n=s.length;
-        Character ans[]=new Character[s.length];
+        int n=15;
+        List<String>ans=new ArrayList<>();
         for (int i=0;i<n;i++){
-            ans[n-i-1]=s[i];
+            if ((i+1)%3==0 && (i+1)%5==0){
+                ans.add("FizzBuzz");
+            } else if ((i+1)%3==0 && (i+1)%5!=0) {
+                ans.add("Fizz");
+            } else if ((i+1)%3!=0 && (i+1)%5==0) {
+                ans.add("Buzz");
+            } else  {
+                ans.add(String.valueOf(i+1));
+            }
         }
-        for (int i=0;i<n;i++){
-            s[i]=ans[i];
-        }
-        System.out.println(Arrays.toString(s));
+        System.out.println(ans);
     }
 }
