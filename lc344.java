@@ -1,8 +1,7 @@
-import java.awt.*;
-import java.util.*;
-import java.util.List;
+import java.util.Arrays;
 
-public class Prac {
+public class lc344 {
+//    344. Reverse String
     public static void main(String[] args) {
         char s[]={'h','e','l','l','o'};
         int n=s.length;
