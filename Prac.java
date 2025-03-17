@@ -1,17 +1,19 @@
+import java.util.ArrayList;
+import java.util.*;
+
 public class Prac {
     public static void main(String[] args) {
-        int n=10;
-        int m=3;
-        int num1=0;
-        int num2 =0;
-        for (int i=1;i<=n;i++){
-            if (i%m!=0){
-                num1=num1+i;
-            } else if (i%m==0) {
-                num2=num2+i;
+        int nums[]={999,19,199};
+        for (int i=0;i< nums.length;i++){
+            int t=0;
+            while (nums[i]>0){
+                t=t+(nums[i]%10);
+                nums[i]=nums[i]/10;
             }
+            nums[i]=t;
         }
-        int ans=num1-num2;
+        Arrays.sort(nums);
+        int ans=nums[0];
         System.out.println(ans);
     }
 }
