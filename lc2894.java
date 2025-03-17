@@ -1,4 +1,5 @@
-public class Prac {
+public class lc2894 {
+//    2894. Divisible and Non-divisible Sums Difference
     public static void main(String[] args) {
         int n=10;
         int m=3;
