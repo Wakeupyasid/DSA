@@ -1,8 +1,5 @@
-import java.awt.*;
-import java.util.*;
-import java.util.List;
-
-public class Prac {
+public class lc1281 {
+//    1281. Subtract the Product and Sum of Digits of an Integer
     public static void main(String[] args) {
         int n=4421;
         int s=0;
