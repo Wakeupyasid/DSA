@@ -3,16 +3,17 @@ import java.util.*;
 
 public class Prac {
     public static void main(String[] args) {
-        String num="51230100";
-        StringBuilder sb=new StringBuilder(num);
-        for (int i=sb.length()-1;i>=0;i--){
-            if (sb.charAt(i)=='0'){
-                sb.deleteCharAt(i);
+        int n=886996;
+        int ans=0;
+        String p= String.valueOf(n);
+        for (int i=0;i<p.length();i++){
+            if (i%2==0){
+                ans=ans+ Character.getNumericValue(p.charAt(i));
             }
-            else break;
+            if (i%2!=0){
+                ans=ans+Character.getNumericValue(p.charAt(i))*(-1);
+            }
         }
-        num= String.valueOf(sb);
-        System.out.println(num);
-
+        System.out.println(ans);
     }
 }
