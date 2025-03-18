@@ -3,17 +3,20 @@ import java.util.*;
 
 public class Prac {
     public static void main(String[] args) {
-        int nums[]={999,19,199};
-        for (int i=0;i< nums.length;i++){
-            int t=0;
-            while (nums[i]>0){
-                t=t+(nums[i]%10);
-                nums[i]=nums[i]/10;
+        int nums[]={1,3,6,10,12,15};
+        int ans=0;
+        int c=0;
+        for (int i=0;i<nums.length;i++){
+            if (nums[i]%2==0 && nums[i]%3==0){
+                ans=ans+nums[i];
+                c++;
             }
-            nums[i]=t;
         }
-        Arrays.sort(nums);
-        int ans=nums[0];
+        if (c!=0){
+            ans=ans/c;
+        } else {
+            ans=ans;
+        }
         System.out.println(ans);
     }
 }
