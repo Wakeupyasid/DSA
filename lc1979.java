@@ -1,9 +1,8 @@
-import java.util.ArrayList;
-import java.util.*;
+import java.util.Arrays;
 
-public class Prac {
+public class lc1979 {
+//    1979. Find Greatest Common Divisor of Array
     public static void main(String[] args) {
-
         int nums[]={3,3};
         int ans=0;
         Arrays.sort(nums);
