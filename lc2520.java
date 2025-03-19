@@ -1,7 +1,5 @@
-import java.util.ArrayList;
-import java.util.*;
-
-public class Prac {
+public class lc2520 {
+//    2520. Count the Digits That Divide a Number
     public static void main(String[] args) {
         int num=1248;
         int nno=num;
