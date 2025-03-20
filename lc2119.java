@@ -1,7 +1,5 @@
-import java.util.ArrayList;
-import java.util.*;
-
-public class Prac {
+public class lc2119 {
+//    2119. A Number After a Double Reversal
     public static void main(String[] args) {
         int num=526;
         int t=num;
