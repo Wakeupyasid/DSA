@@ -1,7 +1,5 @@
-import java.util.ArrayList;
-import java.util.*;
-
-public class Prac {
+public class lc2180 {
+//    2180. Count Integers With Even Digit Sum
     public static void main(String[] args) {
         int num=30;
         int ans=0;
