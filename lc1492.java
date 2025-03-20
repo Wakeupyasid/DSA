@@ -1,11 +1,12 @@
 import java.util.ArrayList;
-import java.util.*;
+import java.util.List;
 
-public class Prac {
+public class lc1492 {
+//    1492. The kth Factor of n
     public static void main(String[] args) {
         int n=12;
         int k=3;
-        List<Integer>a=new ArrayList<>();
+        List<Integer> a=new ArrayList<>();
         for (int i=1;i<=n;i++){
             if (n%i==0){
                 a.add(i);
