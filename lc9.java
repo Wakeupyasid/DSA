@@ -1,7 +1,5 @@
-import java.util.ArrayList;
-import java.util.*;
-
-public class Prac {
+public class lc9 {
+//    9. Palindrome Number
     public static void main(String[] args) {
         int x=0;
         int t=x;
