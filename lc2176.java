@@ -1,7 +1,5 @@
-import java.util.ArrayList;
-import java.util.*;
-
-public class Prac {
+public class lc2176 {
+//    2176. Count Equal and Divisible Pairs in an Array
     public static void main(String[] args) {
         int nums[] = {1,2,3,4};
         int k=1;
