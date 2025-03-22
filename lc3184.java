@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.*;
-
-public class Prac {
+public class lc3184 {
     public static void main(String[] args) {
         int hours[] = {72,48,24,3};
         int ans=0;
