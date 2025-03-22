@@ -1,7 +1,7 @@
-import java.util.ArrayList;
-import java.util.*;
+import java.util.Arrays;
 
-public class Prac {
+public class lc1732 {
+    // 1732. Find the Highest Altitude
     public static void main(String[] args) {
         int gain[] = {-5,1,5,0,-7};
         int a[] = new int[gain.length + 1];
