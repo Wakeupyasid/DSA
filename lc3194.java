@@ -1,7 +1,7 @@
-import java.util.ArrayList;
-import java.util.*;
+import java.util.Arrays;
 
-public class Prac {
+public class lc3194 {
+    // 3194. Minimum Average of Smallest and Largest Elements
     public static void main(String[] args) {
         int nums[]={1,9,8,3,10,5};
         Arrays.sort(nums);
