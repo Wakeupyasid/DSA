@@ -1,7 +1,5 @@
-import java.util.ArrayList;
-import java.util.*;
-
-public class Prac {
+public class lc1450 {
+    // 1450. Number of Students Doing Homework at a Given Time
     public static void main(String[] args) {
         int startTime[]={4};
         int endTime[]={4};
