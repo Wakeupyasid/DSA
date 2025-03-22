@@ -1,10 +1,11 @@
 import java.util.ArrayList;
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
 
-public class Prac {
+public class lc2553 {
     public static void main(String[] args) {
         int nums[] = {7,1,3,9};
-        List<Integer>a=new ArrayList<>();
+        List<Integer> a=new ArrayList<>();
         for (int i=0;i<nums.length;i++){
             List<Integer>t=new ArrayList<>();
             while (nums[i]>0){

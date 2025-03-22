@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class lc1732 {
     // 1732. Find the Highest Altitude
