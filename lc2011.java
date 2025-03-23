@@ -1,7 +1,5 @@
-import java.util.ArrayList;
-import java.util.*;
-
-public class Prac {
+public class lc2011 {
+//    2011. Final Value of Variable After Performing Operations
     public static void main(String[] args) {
         String operations[]={"--X","X++","X++"};
         int ans=0;
