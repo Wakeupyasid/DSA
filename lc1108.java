@@ -1,7 +1,5 @@
-import java.util.ArrayList;
-import java.util.*;
-
-public class Prac {
+public class lc1108 {
+    // 1108. Defanging an IP Address
     public static void main(String[] args) {
         String address = "1.1.1.1";
         String ans="";
