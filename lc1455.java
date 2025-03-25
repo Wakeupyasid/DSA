@@ -1,8 +1,6 @@
-import java.util.ArrayList;
-import java.util.*;
-
-public class Prac {
+public class lc1455 {
     public static void main(String[] args) {
+        // 1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence
         String sentence = "i am tired", searchWord = "you";
         int ans=-1;
         String[] t = sentence.split(" ");
