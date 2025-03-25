@@ -1,7 +1,5 @@
-import java.util.ArrayList;
-import java.util.*;
-
-public class Prac {
+public class lc2255 {
+    // 2255. Count Prefixes of a Given String
     public static void main(String[] args) {
         String words[] = {"a","b","c","ab","bc","abc"};
         String s = "abc";
