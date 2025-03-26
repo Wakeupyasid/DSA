@@ -1,9 +1,5 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
-
-public class apple {
+public class lc3065 {
+    // 3065. Minimum Operations to Exceed Threshold Value I
     public static void main(String[] args) {
         int nums[]={1,1,2,4,9};
         int k=9;
