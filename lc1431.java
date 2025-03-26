@@ -1,9 +1,8 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
 
-public class apple {
+public class lc1431 {
+    // 1431. Kids With the Greatest Number of Candies
     public static void main(String[] args) {
         int candies[]={4,2,1,1,2};
         int extraCandies = 1;
@@ -11,7 +10,7 @@ public class apple {
         for (int i=0;i<candies.length;i++){
             maxVal=Math.max(maxVal,candies[i]);
         }
-        List<Boolean>ans=new ArrayList<>();
+        List<Boolean> ans=new ArrayList<>();
         for (int i=0;i<candies.length;i++){
             int k=candies[i]+extraCandies;
             if (k>=maxVal){
