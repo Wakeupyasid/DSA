@@ -1,9 +1,7 @@
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
 
-public class apple {
+public class lc2206 {
+    // 2206. Divide Array Into Equal Pairs
     public static void main(String[] args) {
         int nums[]={1,2,3,4};
         boolean ans=true;
