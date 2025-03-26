@@ -1,9 +1,5 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
-
-public class apple {
+public class lc1827 {
+    // 1827. Minimum Operations to Make the Array Increasing
     public static void main(String[] args) {
         int nums[]={0};
         int ans=0;
