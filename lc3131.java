@@ -1,9 +1,5 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
-
-public class apple {
+public class lc3131 {
+    // 3131. Find the Integer Added to Array I
     public static void main(String[] args) {
         int nums1[]={2,6,4};
         int nums2[]={9,7,5};
