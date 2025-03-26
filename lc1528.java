@@ -1,9 +1,5 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
-
-public class apple {
+public class lc1528 {
+    // 1528. Shuffle String
     public static void main(String[] args) {
         String s="codeleet";
         int indices[]={4,5,6,7,0,2,1,3};
