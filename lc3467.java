@@ -1,7 +1,7 @@
 import java.util.Arrays;
-import java.util.Scanner;
 
-public class apple {
+public class lc3467 {
+    // 3467. Transform Array by Parity
     public static void main(String[] args) {
         int nums[]={1,5,1,4,2};
 
