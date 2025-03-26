@@ -1,9 +1,7 @@
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
 
-public class apple {
+public class lc1913 {
+    // 1913. Maximum Product Difference Between Two Pairs
     public static void main(String[] args) {
         int nums[]={5,6,2,7,4};
         Arrays.sort(nums);
