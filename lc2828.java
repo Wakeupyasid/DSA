@@ -1,9 +1,8 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
 
-public class apple {
+public class lc2828 {
+    // 2828. Check if a String Is an Acronym of Words
     public static void main(String[] args) {
         List<String> words=new ArrayList<>();
         String s="a";
