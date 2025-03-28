@@ -1,9 +1,5 @@
-import java.util.*;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
-
-public class apple {
+public class lc744 {
+    // 744. Find Smallest Letter Greater Than Target
     public static void main(String[] args) {
         char letters[]={'c','f','j'};
         char target='a';
