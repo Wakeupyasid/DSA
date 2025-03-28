@@ -1,9 +1,7 @@
-import java.util.*;
 import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
 
-public class apple {
+public class lc2154 {
+    // 2154. Keep Multiplying Found Values by Two
     public static void main(String[] args) {
         int nums[]={2,7,9};
         int originals=4;
