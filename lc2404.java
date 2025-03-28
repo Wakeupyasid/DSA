@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class lc2404 {
     // 2404. Most Frequent Even Element

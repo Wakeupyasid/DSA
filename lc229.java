@@ -1,9 +1,10 @@
-import java.util.*;
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
-import java.util.Scanner;
+import java.util.Map;
 
-public class apple {
+public class lc229 {
+    // 229. Majority Element II
     public static void main(String[] args) {
         int nums[]={1};
         int n= nums.length;
@@ -19,7 +20,7 @@ public class apple {
                 mp.put(nums[i], 1);
             }
         }
-        List<Integer>a=new ArrayList<>();
+        List<Integer> a=new ArrayList<>();
         for (Map.Entry<Integer, Integer> entry : mp.entrySet())
         {
             if (entry.getValue()>n/3){
