@@ -1,9 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
-
-public class apple {
+public class lc1346 {
     public static void main(String[] args) {
         int arr[]={-10,12,-20,-8,15};
         boolean ans=false;
