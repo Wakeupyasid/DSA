@@ -1,9 +1,5 @@
-import java.util.*;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
-
-public class apple {
+public class lc152 {
+    // 152. Maximum Product Subarray
     public static void main(String[] args) {
         int nums[]={-2};
         int ans=Integer.MIN_VALUE;
