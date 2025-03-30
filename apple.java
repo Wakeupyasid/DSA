@@ -5,17 +5,19 @@ import java.util.Scanner;
 
 public class apple {
     public static void main(String[] args) {
-        int nums[]={-2};
-        int ans=Integer.MIN_VALUE;
+        int nums[]={1,1,2};
+
+        List<Integer>a=new ArrayList<>();
         for (int i=0;i< nums.length;i++){
-            int c=1;
-            for (int j=i;j< nums.length;j++){
-                c=c*nums[j];
-                if (c>ans){
-                    ans=c;
-                }
+            if (!a.contains(nums[i])){
+                a.add(nums[i]);
             }
         }
+        int ans=a.size();
+        for (int i=0;i< a.size();i++){
+            nums[i]=a.get(i);
+        }
         System.out.println(ans);
+        System.out.println(Arrays.toString(nums));
     }
 }
