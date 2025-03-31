@@ -1,6 +1,5 @@
-import java.util.*;
-
-public class apple {
+public class lc1491 {
+    // 1491. Average Salary Excluding the Minimum and Maximum Salary
     public static void main(String[] args) {
         int salary[]={3000,1000,2000};
         double ans;
