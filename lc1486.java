@@ -1,6 +1,5 @@
-import java.util.*;
-
-public class apple {
+public class lc1486 {
+    // 1486. XOR Operation in an Array
     public static void main(String[] args) {
         int n=4,start=3;
         int nums[]=new int[n];
