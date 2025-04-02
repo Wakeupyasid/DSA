@@ -1,6 +1,5 @@
-import java.util.*;
-
-public class apple {
+public class lc231 {
+    // 231. Power of Two
     public static void main(String[] args) {
         int n=3;
         boolean ans=false;
