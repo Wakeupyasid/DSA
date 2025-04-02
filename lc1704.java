@@ -1,6 +1,5 @@
-import java.util.*;
-
-public class apple {
+public class lc1704 {
+    // 1704. Determine if String Halves Are Alike
     public static void main(String[] args) {
         String s = "textbook";
         String p1=s.substring(0,s.length()/2);
