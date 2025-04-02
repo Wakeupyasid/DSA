@@ -1,6 +1,5 @@
-import java.util.*;
-
-public class apple {
+public class lc3099 {
+    // 3099. Harshad Number
     public static void main(String[] args) {
         int x=23;
         int t=x;
