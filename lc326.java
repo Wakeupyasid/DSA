@@ -1,14 +1,14 @@
-public class lc342 {
-    // 342. Power of Four
+public class lc326 {
+    // 326. Power of Three
     public static void main(String[] args) {
         int n=3;
         boolean ans=false;
         for (int i=0;i<=n;i++){
-            if (Math.pow(4,i)==n){
+            if (Math.pow(3,i)==n){
                 ans=true;
                 break;
             }
-            if (Math.pow(4,i)>n){
+            if (Math.pow(3,i)>n){
                 break;
             }
         }
