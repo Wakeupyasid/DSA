@@ -1,9 +1,11 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
-public class apple {
+public class lc728 {
+    // 728. Self Dividing Numbers
     public static void main(String[] args) {
         int left = 66, right = 708;
-        List<Integer>m=new ArrayList<>();
+        List<Integer> m=new ArrayList<>();
         for (int i=left;i<=right;i++){
             if (i%10!=0){
                 boolean a=true;
