@@ -1,6 +1,5 @@
-import java.util.*;
-
-public class apple {
+public class lc2427 {
+    // 2427. Number of Common Factors
     public static void main(String[] args) {
         int a = 25, b = 30;
         int ans=0;
