@@ -1,6 +1,7 @@
-import java.util.*;
+import java.util.Arrays;
 
-public class apple {
+public class lc1920 {
+    // 1920. Build Array from Permutation
     public static void main(String[] args) {
         int nums[] = {0, 2, 1, 5, 3, 4};
         int[] ans = new int[nums.length];
