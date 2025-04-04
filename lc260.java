@@ -1,6 +1,7 @@
-import java.util.*;
+import java.util.Arrays;
 
-public class apple {
+public class lc260 {
+    // 260. Single Number III
     public static void main(String[] args) {
         int nums[]={0,1,0,1,3,5,3,4,5,7};
         int ans[]=new int[2];
