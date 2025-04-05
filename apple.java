@@ -2,25 +2,21 @@ import java.util.*;
 
 public class apple {
     public static void main(String[] args) {
-        int nums[]={0,1,0,1,3,5,3,4,5,7};
-        int ans[]=new int[2];
+        String s = "abbaca";
         int k=0;
-        Arrays.sort(nums);
-        for (int i=0;i< nums.length;i++){
-            int c=0;
-            for (int j=i;j< nums.length;j++){
-                if (nums[j]==nums[i]){
-                    c++;
-                }
-                if (c>1){
-                    break;
-                }
+        Stack<Character>ch=new Stack<>();
+        ch.push(s.charAt(0));
+        for (int i=1;i<s.length()-1;i++){
+
+            if (s.charAt(i)==ch.peek()){
+                ch.pop();
             }
-            if (c==1){
-                ans[k++]=nums[i];
+            else if (s.charAt(i)!=ch.peek()){
+
+                ch.push(s.charAt(i));
             }
-            i=i+c-1;
+            System.out.println(ch+""+k++);
         }
-        System.out.println(Arrays.toString(ans));
+        System.out.println(ch);
     }
 }
