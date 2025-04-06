@@ -1,6 +1,5 @@
-import java.util.*;
-
-public class apple {
+public class lc1287 {
+    // 1287. Element Appearing More Than 25% In Sorted Array
     public static void main(String[] args) {
         int arr[]={5668,5668,5668,5668,22011};
         int n=arr.length;
