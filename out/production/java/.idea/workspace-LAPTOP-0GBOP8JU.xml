@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a968110f-e54c-435e-a493-5673f1b8f608" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/lc58.java" beforeDir="false" afterPath="$PROJECT_DIR$/lc58.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2pfYqPzfpPzX4mb2nE2pcTjIfjl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Prac.executor": "Run",
+    "Application.Q1.executor": "Run",
+    "Application.Q2.executor": "Run",
+    "Application.apple.executor": "Run",
+    "Application.bababa.executor": "Run",
+    "Application.bbb.executor": "Run",
+    "Application.lc1.executor": "Run",
+    "Application.lc1051.executor": "Run",
+    "Application.lc1295.executor": "Run",
+    "Application.lc1365.executor": "Run",
+    "Application.lc1390.executor": "Run",
+    "Application.lc1394.executor": "Run",
+    "Application.lc1437.executor": "Run",
+    "Application.lc1470.executor": "Run",
+    "Application.lc1480.executor": "Run",
+    "Application.lc1512.executor": "Run",
+    "Application.lc1732.executor": "Run",
+    "Application.lc1748.executor": "Run",
+    "Application.lc1822.executor": "Run",
+    "Application.lc2089.executor": "Run",
+    "Application.lc2149.executor": "Run",
+    "Application.lc217.executor": "Run",
+    "Application.lc2176.executor": "Run",
+    "Application.lc2180.executor": "Run",
+    "Application.lc2278.executor": "Run",
+    "Application.lc2404.executor": "Run",
+    "Application.lc2441.executor": "Run",
+    "Application.lc2535.executor": "Run",
+    "Application.lc2540.executor": "Run",
+    "Application.lc2544.executor": "Run",
+    "Application.lc26.executor": "Run",
+    "Application.lc2652.executor": "Run",
+    "Application.lc2733.executor": "Run",
+    "Application.lc2778.executor": "Run",
+    "Application.lc2974.executor": "Run",
+    "Application.lc3151.executor": "Run",
+    "Application.lc414.executor": "Run",
+    "Application.lc58.executor": "Run",
+    "Application.lc657.executor": "Run",
+    "Application.lc905.executor": "Run",
+    "Application.lc977.executor": "Run",
+    "Application.mmm.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindow.Run.ShowToolbar": "false",
+    "git-widget-placeholder": "main",
+    "ignore.preview.features.used": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ASUS/Desktop/New folder/java",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.lc58">
+    <configuration name="Prac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Prac" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="apple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="apple" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc2176" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lc2176" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc2404" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lc2404" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc58" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lc58" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.lc58" />
+        <item itemvalue="Application.apple" />
+        <item itemvalue="Application.lc2404" />
+        <item itemvalue="Application.Prac" />
+        <item itemvalue="Application.lc2176" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a968110f-e54c-435e-a493-5673f1b8f608" name="Changes" comment="" />
+      <created>1733158787713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733158787713</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

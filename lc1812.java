@@ -1,6 +1,5 @@
-import java.util.*;
-
-public class apple {
+public class lc1812 {
+    // 1812. Determine Color of a Chessboard Square
     public static void main(String[] args) {
         String coordinates = "h3";
         int a=coordinates.charAt(0);
