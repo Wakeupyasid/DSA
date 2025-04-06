@@ -1,6 +1,7 @@
 public class lc58 {
     // 58. Length of Last Word
     public static void main(String[] args) {
+<<<<<<< HEAD
         String s = "Hello World  ";
         int ans=0;
         int k=0;
@@ -14,5 +15,8 @@ public class lc58 {
             
         }
         System.out.println(ans);
+=======
+        
+>>>>>>> ebe6f08bec39e86e96cdbd0e77711a6ba0eaa5ea
     }
 }
