@@ -1,6 +1,5 @@
-import java.util.*;
-
-public class apple {
+public class lc2932 {
+    // 2932. Maximum Strong Pair XOR I
     public static void main(String[] args) {
         int nums[]={10,100};
         int ans=0;
