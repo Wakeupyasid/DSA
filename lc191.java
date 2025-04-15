@@ -1,6 +1,5 @@
-import java.util.*;
-
-public class apple {
+public class lc191 {
+    // 191. Number of 1 Bits
     public static void main(String[] args) {
         int n=11;
         String s=Integer.toBinaryString(n);
