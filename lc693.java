@@ -1,6 +1,5 @@
-import java.util.*;
-
-public class apple {
+public class lc693 {
+    // 693. Binary Number with Alternating Bits
     public static void main(String[] args) {
         int n=7;
         boolean ans=true;
