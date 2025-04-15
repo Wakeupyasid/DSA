@@ -1,6 +1,7 @@
-import java.util.*;
+import java.util.Arrays;
 
-public class apple {
+public class lc338 {
+    // 338. Counting Bits
     public static void main(String[] args) {
         int n=5;
         int ans[]=new int[n+1];
