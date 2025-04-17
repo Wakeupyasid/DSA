@@ -2,15 +2,16 @@ import java.util.*;
 
 public class apple {
     public static void main(String[] args) {
-        int n=7;
-        boolean ans=true;
-        String s=Integer.toBinaryString(n);
-        for (int i=0;i<s.length()-1;i++){
-            if (s.charAt(i)==s.charAt(i+1)){
-                ans=false;
-                break;
+        String title = "capiTalIze tHe titLe";
+        String[] arr = title.split(" ");
+        for (int i=0;i<arr.length;i++){
+            if (arr[i].length()<=2){
+                arr[i]=arr[i].toLowerCase();
+            }
+            else {
+                arr[i]=arr[i].toLowerCase();
+
             }
         }
-        System.out.println(ans);
     }
 }
