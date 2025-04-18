@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class apple {
+public class lc1941 {
+    // 1941. Check if All Characters Have Equal Number of Occurrences
     public static void main(String[] args) {
         String s=s = "mmmccmcccccmcccccmmmcmccmmccccmmmcmmcmcmcmcmmmmmmmmmcccmmcmmmcmmcmcmcmmmcmmmcmmccccmcmccmmcmccmmmcmmccccmcmmccmcmmcccmmcmmcmmcmccmmccmcmmcmmccmmccmcccmmcccmmcccccmcmmmmcmccmmmmmmcmmccmccmmcccccccccmcccmmmccmmccccmmcmcmcmcmmcmmcmcmcmccccmmcccmmmccmmcmmmcmmmcmccccmcmcccmmccmm";
         char[] c = s.toCharArray();
@@ -16,7 +17,7 @@ public class apple {
                 mp.put(c[i], 1);
             }
         }
-        List<Integer>b=new ArrayList<>();
+        List<Integer> b=new ArrayList<>();
         for (Map.Entry<Character, Integer> entry : mp.entrySet())
         {
             b.add(entry.getValue());
