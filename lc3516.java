@@ -1,6 +1,5 @@
-import java.util.*;
-
-public class apple {
+public class lc3516 {
+    // 3516. Find Closest Person
     public static void main(String[] args) {
         int x = 1, y = 5, z = 3;
         int a=Math.abs(x-z);
