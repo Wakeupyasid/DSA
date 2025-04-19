@@ -1,6 +1,5 @@
-import java.util.*;
-
-public class apple {
+public class lc1876 {
+    // 1876. Substrings of Size Three with Distinct Characters
     public static void main(String[] args) {
         String s = "aababcabc";
         int ans=0;
