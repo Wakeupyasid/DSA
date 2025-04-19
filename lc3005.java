@@ -1,6 +1,8 @@
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
-public class apple {
+public class lc3005 {
+    // 3005. Count Elements With Maximum Frequency
     public static void main(String[] args) {
         int nums[]={1,2,3,4,5};
 
