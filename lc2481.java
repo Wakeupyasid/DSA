@@ -1,6 +1,5 @@
-import java.util.*;
-
-public class apple {
+public class lc2481 {
+    // 2481. Minimum Cuts to Divide a Circle
     public static void main(String[] args) {
         int n=3;
         int ans=0;
