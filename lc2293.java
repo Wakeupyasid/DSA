@@ -1,9 +1,12 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
-public class apple {
+public class lc2293 {
+    // 2293. Min Max Game
     public static void main(String[] args) {
         int nums[]={70,38,21,22};
-        List<Integer>a=new ArrayList<>();
+        List<Integer> a=new ArrayList<>();
         for (int i=0;i< nums.length;i++){
             a.add(nums[i]);
         }
