@@ -1,6 +1,5 @@
-import java.util.*;
-
-public class apple {
+public class lc1952 {
+    // 1952. Three Divisors
     public static void main(String[] args) {
         int n=2;
         int a=0;
