@@ -1,6 +1,9 @@
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
-public class apple {
+public class lc2341 {
+    // 2341. Maximum Number of Pairs in Array
     public static void main(String[] args) {
         int nums[]={0};
         int ans[]=new int[2];
