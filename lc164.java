@@ -1,6 +1,7 @@
-import java.util.*;
+import java.util.Arrays;
 
-public class apple {
+public class lc164 {
+    // 164. Maximum Gap
     public static void main(String[] args) {
         int nums[]={10};
         Arrays.sort(nums);
