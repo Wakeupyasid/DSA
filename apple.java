@@ -2,22 +2,29 @@ import java.util.*;
 
 public class apple {
     public static void main(String[] args) {
-        int nums[]={-1,-100,3,99};
-        int k=6;
-        if (k> nums.length){
-            k= k%nums.length;
+        String []operations={"1","C"};
+        int ans=0;
+        List<Integer>a=new ArrayList<>();
+        for (int i=0;i< operations.length;i++){
+            if (operations[i].equals("+") && a.size()>=2){
+                int k=a.get(a.size()-1)+a.get(a.size()-2);
+                a.add(k);
+            }
+            else if (operations[i].equals("D") && a.size()>=1){
+                int k=a.get(a.size()-1)*2;
+                a.add(k);
+            }
+            else if (operations[i].equals("C") && a.size()>=1) {
+                a.removeLast();
+            }
+            else {
+                int k=Integer.parseInt(operations[i]);
+                a.add(k);
+            }
         }
-        int ans[]=new int[nums.length];
-        int t=0;
-        for (int i= nums.length-k;i< nums.length;i++){
-            ans[t++]=nums[i];
+        for (int i=0;i<a.size();i++){
+            ans=ans+a.get(i);
         }
-        for (int i=0;i< nums.length-k;i++){
-            ans[t++]=nums[i];
-        }
-        for (int i=0;i<nums.length;i++){
-            nums[i]=ans[i];
-        }
-        System.out.println(Arrays.toString(nums));
+        System.out.println(ans);
     }
 }
