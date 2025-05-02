@@ -1,6 +1,7 @@
-import java.util.*;
+import java.util.Arrays;
 
-public class apple {
+public class lc189 {
+    // 189. Rotate Array
     public static void main(String[] args) {
         int nums[]={-1,-100,3,99};
         int k=6;
