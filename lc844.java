@@ -1,10 +1,10 @@
-import java.math.BigInteger;
-import java.util.*;
+import java.util.Stack;
 
-public class apple {
+public class lc844 {
+    // 844. Backspace String Compare
     public static void main(String[] args) {
         String s = "xywrrmp", t = "xywrrmu#p";
-        Stack<String>a=new Stack<>();
+        Stack<String> a=new Stack<>();
         Stack<String>b=new Stack<>();
         for (int i=0;i<s.length();i++){
             String k= String.valueOf(s.charAt(i));
