@@ -1,29 +1,26 @@
+import java.math.BigInteger;
 import java.util.*;
 
 public class apple {
     public static void main(String[] args) {
-        String []operations={"1","C"};
-        int ans=0;
-        List<Integer>a=new ArrayList<>();
-        for (int i=0;i< operations.length;i++){
-            if (operations[i].equals("+") && a.size()>=2){
-                int k=a.get(a.size()-1)+a.get(a.size()-2);
-                a.add(k);
+        String arr[]={"d","b","c","b","c","a"};
+        int k=2;
+        int p=0;
+        String ans="";
+        for (int i=0;i< arr.length;i++){
+            int c=0;
+            for (int j=0;j< arr.length;j++){
+                if (arr[i].equals(arr[j])){
+                    c++;
+                }
             }
-            else if (operations[i].equals("D") && a.size()>=1){
-                int k=a.get(a.size()-1)*2;
-                a.add(k);
+            if (c==1){
+                p++;
+                if (p==k){
+                    ans=arr[i];
+                    break;
+                }
             }
-            else if (operations[i].equals("C") && a.size()>=1) {
-                a.removeLast();
-            }
-            else {
-                int k=Integer.parseInt(operations[i]);
-                a.add(k);
-            }
-        }
-        for (int i=0;i<a.size();i++){
-            ans=ans+a.get(i);
         }
         System.out.println(ans);
     }
