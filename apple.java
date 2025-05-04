@@ -9,7 +9,7 @@ public class apple {
         for (int i=0;i<s.length();i++){
             String k= String.valueOf(s.charAt(i));
             if (k.equals("#")){
-                if (a.size()>0){
+                if (!a.isEmpty()){
                     a.pop();
                 }
             }
@@ -18,7 +18,7 @@ public class apple {
         for (int i=0;i<t.length();i++){
             String k= String.valueOf(t.charAt(i));
             if (k.equals("#")){
-                if (b.size()>0){
+                if (!b.isEmpty()){
                     b.pop();
                 }
             }
