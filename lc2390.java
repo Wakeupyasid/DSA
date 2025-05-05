@@ -1,10 +1,10 @@
-import java.math.BigInteger;
-import java.util.*;
+import java.util.Stack;
 
-public class apple {
+public class lc2390 {
+    // 2390. Removing Stars From a String
     public static void main(String[] args) {
         String s = "leet**cod*e";
-        Stack<String>a=new Stack<>();
+        Stack<String> a=new Stack<>();
         for (int i=0;i<s.length();i++){
             String p= String.valueOf(s.charAt(i));
             if (a.empty()){
