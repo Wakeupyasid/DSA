@@ -1,7 +1,5 @@
-import java.math.BigInteger;
-import java.util.*;
-
-public class apple {
+public class lc796 {
+    // 796. Rotate String
     public static void main(String[] args) {
         String s = "abcde", goal = "cdeab";
         boolean ans=false;

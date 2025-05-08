@@ -1,6 +1,9 @@
 public class banana {
     public static void main(String[] args) {
-        int nums[]={1,4,2,3,5,7};
+        String p="sasas";
+        int k=0;
+        for (int i=0;i<p.length()/2;i++){
 
+        }
     }
 }
