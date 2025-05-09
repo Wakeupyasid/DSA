@@ -1,7 +1,5 @@
-import java.math.BigInteger;
-import java.util.*;
-
-public class apple {
+public class lc125 {
+    // 125. Valid Palindrome
     public static void main(String[] args) {
         String s = "A man, a plan, a canal: Panama";
         s=s.toLowerCase();
