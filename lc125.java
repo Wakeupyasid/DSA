@@ -16,5 +16,6 @@ public class lc125 {
             }
         }
         System.out.println(ans);
+
     }
 }
