@@ -1,10 +1,12 @@
-import java.math.BigInteger;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
-public class apple {
+public class lc2264 {
+    // 2264. Largest 3-Same-Digit Number in String
     public static void main(String[] args) {
         String num = "6777133339";
-        List<Integer>a=new ArrayList<>();
+        List<Integer> a=new ArrayList<>();
         for (int i=0;i<num.length()-2;i++){
             if (num.charAt(i)==num.charAt(i+1) && num.charAt(i+1)==num.charAt(i+2)){
                 int k= Integer.parseInt(String.valueOf(num.charAt(i)));
