@@ -3,20 +3,16 @@ import java.util.*;
 
 public class apple {
     public static void main(String[] args) {
-        int n=2;
-        boolean ans=false;
-        while (n>2){
-            int t=n;
-            int s=0;
-            while (t>0){
-                s=s+((t%10)*(t%10));
-                t=t/10;
+        String s="VPtCBexbhyOqEHWMpF  VJOZpC";
+        s = s.trim();
+        int c = 0;
+        for(int i = s.length()-1; i>=0;i--) {
+            if (s.charAt(i) != ' ') {
+                c++;
+            } else if (c > 0) {
+                break;
             }
-            n=s;
         }
-        if (n==1){
-            ans=true;
-        }
-        System.out.println(ans);
+        System.out.println(c);
     }
 }
