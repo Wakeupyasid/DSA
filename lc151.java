@@ -1,7 +1,7 @@
-import java.math.BigInteger;
-import java.util.*;
+import java.util.Arrays;
 
-public class apple {
+public class lc151 {
+    // 151. Reverse Words in a String
     public static void main(String[] args) {
         String s = "  hello world  ";
         s=s.trim();
