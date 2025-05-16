@@ -1,13 +1,12 @@
-import jdk.jfr.Unsigned;
+import java.util.ArrayList;
+import java.util.List;
 
-import java.math.BigInteger;
-import java.util.*;
-
-public class apple {
+public class lc541 {
+    // 541. Reverse String II
     public static void main(String[] args) {
         String s = "abcdefg";
         int k = 2;
-        List<String>p=new ArrayList<>();
+        List<String> p=new ArrayList<>();
         for (int i=0;i<s.length();i=i+k){
             p.add(s.substring(i, Math.min(i + k, s.length())));
         }
