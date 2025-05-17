@@ -1,9 +1,9 @@
-import jdk.jfr.Unsigned;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
-import java.math.BigInteger;
-import java.util.*;
-
-public class apple {
+public class lc75 {
+    // 75. Sort Colors
     public static void main(String[] args) {
         int nums[]={2,0,2,1,1,0};
         Map<Integer, Integer> frequencyMap = new HashMap<>();
@@ -17,6 +17,5 @@ public class apple {
             }
         }
         System.out.println(Arrays.toString(nums));
-
     }
 }
