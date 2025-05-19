@@ -1,12 +1,11 @@
-import jdk.jfr.Unsigned;
+import java.util.ArrayList;
+import java.util.List;
 
-import java.math.BigInteger;
-import java.util.*;
-
-public class apple {
+public class lc345 {
+    // 345. Reverse Vowels of a String
     public static void main(String[] args) {
         String s = "IceCreAm";
-        List<String>a=new ArrayList<>();
+        List<String> a=new ArrayList<>();
         List<Integer>b=new ArrayList<>();
         for (int i=0;i<s.length();i++){
             String c= String.valueOf(s.charAt(i));
