@@ -1,12 +1,12 @@
-import jdk.jfr.Unsigned;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
-import java.math.BigInteger;
-import java.util.*;
-
-public class apple {
+public class lc1446 {
+    // 1446. Consecutive Characters
     public static void main(String[] args) {
         String s = "j";
-        List<Integer>a=new ArrayList<>();
+        List<Integer> a=new ArrayList<>();
         for (int i=0;i<s.length()-1;i++){
             char ch=s.charAt(i);
             int k=0;
