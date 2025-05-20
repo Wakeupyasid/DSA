@@ -1,9 +1,5 @@
-import jdk.jfr.Unsigned;
-
-import java.math.BigInteger;
-import java.util.*;
-
-public class apple {
+public class lc2696 {
+    // 2696. Minimum String Length After Removing Substrings
     public static void main(String[] args) {
         String s = "ABFCACDB";
         while (s.contains("AB")|| s.contains("CD")){
