@@ -1,9 +1,8 @@
-import jdk.jfr.Unsigned;
+import java.util.HashMap;
+import java.util.Map;
 
-import java.math.BigInteger;
-import java.util.*;
-
-public class apple {
+public class lc3541 {
+    // 3541. Find Most Frequent Vowel and Consonant
     public static void main(String[] args) {
         String s = "successes";
         Map<Character, Integer> v = new HashMap<>();
