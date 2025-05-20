@@ -1,12 +1,11 @@
-import jdk.jfr.Unsigned;
+import java.util.ArrayList;
+import java.util.List;
 
-import java.math.BigInteger;
-import java.util.*;
-
-public class apple {
+public class lc2125 {
+    // 2125. Number of Laser Beams in a Bank
     public static void main(String[] args) {
         String []bank={"011001","000000","010100","001000"};
-        List<Integer>a=new ArrayList<>();
+        List<Integer> a=new ArrayList<>();
         for (int i=0;i< bank.length;i++){
             int k=0;
             for (int j=0;j<bank[i].length();j++){
@@ -25,6 +24,5 @@ public class apple {
             }
         }
         System.out.println(ans);
-
     }
 }
