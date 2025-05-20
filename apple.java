@@ -5,15 +5,18 @@ import java.util.*;
 
 public class apple {
     public static void main(String[] args) {
-        String sentence = "thequickbrownfoxjumpsoverthelazydog";
-        HashMap<Character, Integer> cf = new HashMap<>();
-        for (char c : sentence.toCharArray()) {
-            cf.put(c, cf.getOrDefault(c, 0) + 1);
+        String s="abc1";
+        Stack<String>a=new Stack<>();
+        for (int i=0;i<s.length();i++){
+            if (s.charAt(i)>=97 && s.charAt(i)<=122){
+                a.push(String.valueOf(s.charAt(i)));
+            }
+            else a.pop();
         }
-        boolean ans=true;
-        if (cf.size()!=26){
-            ans=false;
+        String ans="";
+        for (int i=0;i<a.size();i++){
+            ans=ans+a.get(i);
         }
-        System.out.println(ans);
+
     }
 }
