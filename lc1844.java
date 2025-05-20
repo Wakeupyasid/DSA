@@ -1,12 +1,10 @@
-import jdk.jfr.Unsigned;
+import java.util.Stack;
 
-import java.math.BigInteger;
-import java.util.*;
-
-public class apple {
+public class lc1844 {
+    // 1844. Replace All Digits with Characters
     public static void main(String[] args) {
         String s = "a1b2c3d4e";
-        Stack<String>a=new Stack<>();
+        Stack<String> a=new Stack<>();
         for (int i=0;i<s.length();i++){
             if (s.charAt(i)>=97 && s.charAt(i)<=122){
                 a.add(String.valueOf(s.charAt(i)));
