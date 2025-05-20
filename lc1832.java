@@ -1,9 +1,7 @@
-import jdk.jfr.Unsigned;
+import java.util.HashMap;
 
-import java.math.BigInteger;
-import java.util.*;
-
-public class apple {
+public class lc1832 {
+    // 1832. Check if the Sentence Is Pangram
     public static void main(String[] args) {
         String sentence = "thequickbrownfoxjumpsoverthelazydog";
         HashMap<Character, Integer> cf = new HashMap<>();
