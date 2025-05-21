@@ -1,9 +1,5 @@
-import jdk.jfr.Unsigned;
-
-import java.math.BigInteger;
-import java.util.*;
-
-public class apple {
+public class lc771 {
+    // 771. Jewels and Stones
     public static void main(String[] args) {
         String jewels = "aA", stones = "aAAbbbb";
         int ans=0;
