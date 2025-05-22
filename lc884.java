@@ -1,9 +1,10 @@
-import jdk.jfr.Unsigned;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
 
-import java.math.BigInteger;
-import java.util.*;
-
-public class apple {
+public class lc884 {
+    // 884. Uncommon Words from Two Sentences
     public static void main(String[] args) {
         String s1 = "this apple is sweet", s2 = "this apple is sour";
         String[] sp1 = s1.split(" ");
@@ -25,7 +26,7 @@ public class apple {
                 frequencyMap.put(str, 1);
             }
         }
-        List<String>a=new ArrayList<>();
+        List<String> a=new ArrayList<>();
         for (String key : frequencyMap.keySet()) {
             if (frequencyMap.get(key)==1){
                 a.add(key);
