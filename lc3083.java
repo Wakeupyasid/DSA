@@ -1,9 +1,5 @@
-import jdk.jfr.Unsigned;
-
-import java.math.BigInteger;
-import java.util.*;
-
-public class apple {
+public class lc3083 {
+    // 3083. Existence of a Substring in a String and Its Reverse
     public static void main(String[] args) {
         String s = "abcd";
         String rs = new StringBuilder(s).reverse().toString();
