@@ -1,13 +1,12 @@
-import jdk.jfr.Unsigned;
+import java.util.ArrayList;
+import java.util.List;
 
-import java.math.BigInteger;
-import java.util.*;
-
-public class apple {
+public class lc2042 {
+    // 2042. Check if Numbers Are Ascending in a Sentence
     public static void main(String[] args) {
         String s = "sunset is at 7 51 pm overnight lows will be in the low 50 and 60 s";
         String[] arr = s.split(" ");
-        List<Integer>a=new ArrayList<>();
+        List<Integer> a=new ArrayList<>();
         for (int i=0;i<arr.length;i++){
             if (arr[i].charAt(0)>=48 && arr[i].charAt(0)<=57){
                 a.add(Integer.valueOf(arr[i]));
