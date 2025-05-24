@@ -1,9 +1,5 @@
-import jdk.jfr.Unsigned;
-
-import java.math.BigInteger;
-import java.util.*;
-
-public class apple {
+public class lc3461 {
+    // 3461. Check If Digits Are Equal in String After Operations I
     public static void main(String[] args) {
         String s = "3902";
         while (s.length()!=2){
