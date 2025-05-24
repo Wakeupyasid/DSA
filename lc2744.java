@@ -1,9 +1,5 @@
-import jdk.jfr.Unsigned;
-
-import java.math.BigInteger;
-import java.util.*;
-
-public class apple {
+public class lc2744 {
+    // 2744. Find Maximum Number of String Pairs
     public static void main(String[] args) {
         String words[]={"ab","ba","cc"};
         int ans=0;
