@@ -1,7 +1,5 @@
-import jdk.jfr.Unsigned;
-import java.math.BigInteger;
-import java.util.*;
-public class apple {
+public class lc2023 {
+    // 2023. Number of Pairs of Strings With Concatenation Equal to Target
     public static void main(String[] args) {
         String nums[]={"777","7","77","77"};
         String target="7777";
