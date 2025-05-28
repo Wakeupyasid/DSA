@@ -1,11 +1,12 @@
-import jdk.jfr.Unsigned;
-import java.math.BigInteger;
-import java.util.*;
-public class apple {
+import java.util.ArrayList;
+import java.util.List;
+
+public class lc387 {
+    // 387. First Unique Character in a String
     public static void main(String[] args) {
         String s = "leetcode";
         int ans=-1;
-        List<Character>a=new ArrayList<>();
+        List<Character> a=new ArrayList<>();
         for (int i=0;i<s.length();i++){
             if (!a.contains(s.charAt(i))){
                 int c=0;
