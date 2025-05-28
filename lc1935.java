@@ -1,7 +1,5 @@
-import jdk.jfr.Unsigned;
-import java.math.BigInteger;
-import java.util.*;
-public class apple {
+public class lc1935 {
+    // 1935. Maximum Number of Words You Can Type
     public static void main(String[] args) {
         String text = "leet code", brokenLetters = "lt";
         int ans=0;
