@@ -1,7 +1,5 @@
-import jdk.jfr.Unsigned;
-import java.math.BigInteger;
-import java.util.*;
-public class apple {
+public class lc1859 {
+    // 1859. Sorting the Sentence
     public static void main(String[] args) {
         String s = "is2 sentence4 This1 a3";
         String k[]=s.split(" ");
