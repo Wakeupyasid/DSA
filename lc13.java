@@ -18,6 +18,6 @@ public class lc13 {
                 ans -= roman[s.charAt(i)];
             else
                 ans += roman[s.charAt(i)];
-            
+
     }
 }
