@@ -1,7 +1,5 @@
-import jdk.jfr.Unsigned;
-import java.math.BigInteger;
-import java.util.*;
-public class apple {
+public class lc2980 {
+    // 2980. Check if Bitwise OR Has Trailing Zeros
     public static void main(String[] args) {
         int nums[]={1,2,3,4,5};
         int c=0;
