@@ -1,7 +1,5 @@
-import jdk.jfr.Unsigned;
-import java.math.BigInteger;
-import java.util.*;
-public class apple {
+public class lc1869 {
+    // 1869. Longer Contiguous Segments of Ones than Zeros
     public static void main(String[] args) {
         String s = "111000";
         int maxOnes=0;
@@ -36,5 +34,6 @@ public class apple {
         if (maxOnes>maxZeroes){
             ans=true;
         }
+        System.out.println(ans);
     }
 }
