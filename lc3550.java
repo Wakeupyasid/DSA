@@ -14,6 +14,5 @@ public class lc3550 {
                 break;
             }
         }
-        System.out.println(ans);
     }
 }

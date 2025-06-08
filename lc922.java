@@ -1,10 +1,12 @@
-import jdk.jfr.Unsigned;
-import java.math.BigInteger;
-import java.util.*;
-public class apple {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class lc922 {
+    // 922. Sort Array By Parity II
     public static void main(String[] args) {
         int nums[]={4,2,5,7};
-        List<Integer>o=new ArrayList<>();
+        List<Integer> o=new ArrayList<>();
         List<Integer>e=new ArrayList<>();
         for (int i=0;i< nums.length;i++){
             if (nums[i]%2==0){
