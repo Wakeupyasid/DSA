@@ -1,7 +1,5 @@
-import jdk.jfr.Unsigned;
-import java.math.BigInteger;
-import java.util.*;
-public class apple {
+public class lc3550 {
+    // 3550. Smallest Index With Digit Sum Equal to Index
     public static void main(String[] args) {
         int nums[]={1,3,2};
         int ans=-1;
