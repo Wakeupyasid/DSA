@@ -1,7 +1,5 @@
-import jdk.jfr.Unsigned;
-import java.math.BigInteger;
-import java.util.*;
-public class apple {
+public class lc2016 {
+    // 2016. Maximum Difference Between Increasing Elements
     public static void main(String[] args) {
         int nums[]={7,1,5,4};
         int ans=-1;
