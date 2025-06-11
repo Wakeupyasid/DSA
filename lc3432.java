@@ -1,7 +1,5 @@
-import jdk.jfr.Unsigned;
-import java.math.BigInteger;
-import java.util.*;
-public class apple {
+public class lc3432 {
+    // 3432. Count Partitions with Even Sum Difference
     public static void main(String[] args) {
         int nums[]={2,4,6,8};
         int k=0;
