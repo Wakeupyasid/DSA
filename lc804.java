@@ -1,7 +1,7 @@
-import jdk.jfr.Unsigned;
-import java.math.BigInteger;
-import java.util.*;
-public class apple {
+import java.util.HashSet;
+import java.util.Set;
+
+public class lc804 {
     public static void main(String[] args) {
         String words[]={"gin","zen","gig","msg"};
         String[] morseCodes = new String[] {
