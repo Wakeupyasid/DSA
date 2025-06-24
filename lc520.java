@@ -1,11 +1,10 @@
 public class lc520 {
+    public static boolean detectCapitalUse(String word) {
+        return word.equals(word.toUpperCase()) ||
+                word.substring(1).equals(word.substring(1).toLowerCase());
+    }
     public static void main(String[] args) {
-        String word = "Flag";
-        String t=word.toUpperCase();
-        boolean ans=false;
-        if (word.equals(t)){
-            ans=true;
-        }
-        System.out.println(ans);
+        String s="DSA";
+        System.out.println(detectCapitalUse(s));
     }
 }
