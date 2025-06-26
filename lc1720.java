@@ -11,6 +11,6 @@ public class lc1720 {
         for (int i = 0; i < n; ++i) {
             decodedArray[i + 1] = decodedArray[i] ^ encoded[i];
         }
-        System.out.println(Arrays.toString(decodedArray));
+        System.out.println(Arrays.toString(decodedArray) );
     }
 }
