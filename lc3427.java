@@ -6,6 +6,7 @@ public class lc3427 {
         int ans = 0;
         int[] prefix = new int[n + 1];
         for (int i = 0; i < n; ++i){
+            
             prefix[i + 1] = prefix[i] + nums[i];
         }
 

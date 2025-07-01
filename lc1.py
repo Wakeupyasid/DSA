@@ -7,3 +7,5 @@ class Solution:
             if diff in prev:
                 return [prev[diff],i]
             prev[n]=i
+
+print("hello world")
