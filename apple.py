@@ -1,13 +1,7 @@
-from sympy import false
-
-n=4
+patterns=["a","abc","bc","d"]
+word="abc"
 c=0
-for i in range(1,n+1):
-    if n%i==0:
+for i in patterns:
+    if word.__contains__(i):
         c+=1
-    if c==3:
-        break
-ans=False
-if c==3:
-    ans=True
-print(ans)
+print(c)
