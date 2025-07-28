@@ -1,7 +1,8 @@
-patterns=["a","abc","bc","d"]
-word="abc"
-c=0
-for i in patterns:
-    if word.__contains__(i):
-        c+=1
-print(c)
+import math
+from typing import List
+
+
+class Solution:
+    def findGCD(self, nums: List[int]) -> int:
+        return math.gcd(min(nums), max(nums))
+print(Solution().findGCD([16,4,5]))
