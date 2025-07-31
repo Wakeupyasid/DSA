@@ -1,6 +1,10 @@
-nums = [-4,-1,0,3,10]
-ans=[]
-for i in nums:
-    ans.append(i*i)
-ans.sort()
+n=234
+p=1
+s=0
+while n>0:
+    a=n%10
+    p=p*a
+    s=s+a
+    n=n//10
+ans=p-s
 print(ans)
