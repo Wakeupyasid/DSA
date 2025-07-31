@@ -1,7 +1,9 @@
-nums = [4,3,2,1]
-ans=-1
-for i,v in enumerate(nums):
-    if i%10==v:
-        ans=i
-        break
-print(ans)
+nums = [-2,-1,-1,1,2,3]
+p=0
+n=0
+for i in nums:
+    if i>0:
+        p+=1
+    elif i<0:
+        n+=1
+ans=max(p,n)
