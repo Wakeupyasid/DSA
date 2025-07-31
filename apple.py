@@ -1,7 +1,10 @@
-nums = [12,345,2,6,7896]
+num = 14
 ans=0
-for i in nums:
-    a=str(i)
-    if len(a)%2==0:
-        ans=ans+1
+while num>0:
+    if num%2==0:
+        num=num//2
+        ans+=1
+    elif num%2!=0:
+        num=num-1
+        ans+=1
 print(ans)
