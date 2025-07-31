@@ -1,10 +1,7 @@
-n=234
-p=1
-s=0
-while n>0:
-    a=n%10
-    p=p*a
-    s=s+a
-    n=n//10
-ans=p-s
+nums = [12,345,2,6,7896]
+ans=0
+for i in nums:
+    a=str(i)
+    if len(a)%2==0:
+        ans=ans+1
 print(ans)
