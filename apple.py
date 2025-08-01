@@ -1,11 +1,10 @@
-n = 10
-m = 3
-nd=0
-d=0
-for i in range(n+1):
-    if (i%m!=0):
-        nd+=i
-    elif (i%m==0):
-        d+=i
-ans=nd-d
+x=23
+t=x
+s=0
+while x>0:
+    s+=x%10
+    x//=10
+ans=-1
+if t%s==0:
+    ans=s
 print(ans)
