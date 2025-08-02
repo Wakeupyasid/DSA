@@ -1,10 +1,8 @@
-x=23
-t=x
-s=0
-while x>0:
-    s+=x%10
-    x//=10
-ans=-1
-if t%s==0:
-    ans=s
+nums = [1,2,5,2,3]
+target = 2
+nums.sort()
+ans=[]
+for i,v in enumerate(nums):
+    if v == target:
+        ans.append(i)
 print(ans)
