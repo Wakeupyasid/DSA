@@ -1,7 +1,9 @@
-details = ["7868190130M7522","5303914400F9211","9273338290F4010"]
-ans=0
-for i in details:
-    a=int(i[-4:-2])
-    if a>60:
-        ans+=1
+nums = [3,2,1,4]
+ans=-1
+ma=max(nums)
+mi=min(nums)
+for i in nums:
+    if (i!=ma) & (i!=mi):
+        ans=i
+        break
 print(ans)
