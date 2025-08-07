@@ -1,9 +1,9 @@
-nums = [3,2,1,4]
-ans=-1
-ma=max(nums)
-mi=min(nums)
-for i in nums:
-    if (i!=ma) & (i!=mi):
-        ans=i
+letters = ["c","f","j"]
+target = "c"
+a=""
+for i in letters:
+    if i>target:
+        a=i
         break
-print(ans)
+print(a)
+
