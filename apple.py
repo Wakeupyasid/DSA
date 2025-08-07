@@ -1,10 +1,9 @@
-salary = [4000,3000,1000,2000]
-ma=max(salary)
-mi=min(salary)
-a=0
-c=0
-for i in salary:
-    if (i!=ma) & (i!=mi):
-        a+=i
-        c+=1
-print(a,c)
+sentence = "i love eating burger"
+searchWord = "burg"
+a=list(sentence.split(" "))
+ans=0
+for i,v in enumerate(a):
+    if v.startswith(searchWord):
+        ans=i+1
+        break
+print(ans)
