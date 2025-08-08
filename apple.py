@@ -1,9 +1,10 @@
-sentence = "i love eating burger"
-searchWord = "burg"
-a=list(sentence.split(" "))
-ans=0
-for i,v in enumerate(a):
-    if v.startswith(searchWord):
-        ans=i+1
+import collections
+
+nums = [0,1,0,1,0,1,99]
+d=dict(collections.Counter(nums))
+a=0
+for i,v in d.items():
+    if v==1:
+        a=i
         break
-print(ans)
+print(a)
