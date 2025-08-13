@@ -1,2 +1,3 @@
-digits = [4,3,2,1]
-c=0
+nums = [5,2,3,1]
+nums.sort()
+print(nums)
