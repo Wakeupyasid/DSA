@@ -1,7 +1,13 @@
-nums=[12,23,34]
-ans=[]
+nums = [1,2,3,2]
+a=[]
 for i in nums:
-    s=str(i)
-    for j,v in enumerate(s):
-        ans.append(int(s[j]))
+    c=0
+    for j in nums:
+        if i==j:
+            c+=1
+    if c==1:
+        a.append(i)
+ans=0
+for i in a:
+    ans+=i
 print(ans)
