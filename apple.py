@@ -1,13 +1,8 @@
-nums = [1,2,3,2]
-a=[]
-for i in nums:
-    c=0
-    for j in nums:
-        if i==j:
-            c+=1
-    if c==1:
-        a.append(i)
+nums = [11,7,2,15]
+minn=min(nums)
+maxx=max(nums)
 ans=0
-for i in a:
-    ans+=i
+for i in nums:
+    if (minn<i<maxx):
+        ans+=1
 print(ans)
