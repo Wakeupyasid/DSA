@@ -1,11 +1,8 @@
-nums = [2,5,6,0,0,1,2]
-target = 3
+nums = [1,2,3,1]
 ans=False
 nums.sort()
-for i in nums:
-    if i==target:
+for i in range(0,len(nums)-1):
+    if(nums[i]==nums[i+1]):
         ans=True
-        break
-    elif i>target:
         break
 print(ans)
