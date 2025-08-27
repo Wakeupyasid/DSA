@@ -1,11 +1,9 @@
-import math
-
-dimensions = [[9,3],[8,6]]
-ans=[0,0]
-k=0
-for i in dimensions:
-    p=float(math.sqrt((i[0]*i[0])+(i[1]*i[1])))
-    if p>k:
-        k=p
-        ans[0]=i[0]
-        ans[1]=i[1]
+num=14
+ans=False
+for i in range(num):
+    if i*i==num:
+        ans=True
+        break
+    if i*i>num:
+        break
+print(ans)
