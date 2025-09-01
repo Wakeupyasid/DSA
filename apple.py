@@ -1,9 +1,8 @@
-accounts = [[1,5],[7,3],[3,5]]
+nums = [1,3,4,2,2]
+nums.sort()
 ans=0
-for i in accounts:
-    k=0
-    for j in i:
-        k+=j
-    if k>ans:
-        ans=k
+for i in range(len(nums)-1):
+    if nums[i] == nums[i+1]:
+        ans=nums[i]
+        break
 print(ans)
