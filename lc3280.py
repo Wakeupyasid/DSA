@@ -7,4 +7,3 @@ for i in a:
 for i in range(0,len(k)-1):
     ans=ans+k[i]+'-'
 ans=ans+k[-1]
-print(a)
