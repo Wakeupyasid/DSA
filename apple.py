@@ -1,10 +1,7 @@
-date = "2080-02-29"
-a=list(date.split('-'))
-k=[]
-ans=''
-for i in a:
-    k.append(bin(int(i))[2:])
-for i in range(0,len(k)-1):
-    ans=ans+k[i]+'-'
-ans=ans+k[-1]
-print(a)
+nums = [4,2,2,3,1]
+unique_nums = sorted(set(nums), reverse=True)
+if len(unique_nums) >= 3:
+    third_largest = unique_nums[2]
+    print("Third largest number:", third_largest)
+else:
+    print("Less than 3 unique numbers")
