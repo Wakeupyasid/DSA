@@ -1,13 +1,8 @@
-from _testcapi import INT_MIN, INT_MAX
-
-x = 1534236469
-k=1
-if x<0:
-    k=-1
-    x=x*(-1)
-s=str(x)
-s= "".join(reversed(s))
-ans=int(s)*(k)
-if ans < INT_MIN or ans > INT_MAX:
-        ans=0
+nums = [5]
+while len(nums)!=1:
+    a=[]
+    for i in range (len(nums)-1):
+        a.append((nums[i]+nums[i+1])%10)
+    nums=a
+ans=nums[0]
 print(ans)
