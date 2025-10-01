@@ -1,8 +1,4 @@
-nums = [5]
-while len(nums)!=1:
-    a=[]
-    for i in range (len(nums)-1):
-        a.append((nums[i]+nums[i+1])%10)
-    nums=a
-ans=nums[0]
+num1 = "11"
+num2 = "123"
+ans=str(int(num1) + int(num2))
 print(ans)
