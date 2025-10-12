@@ -1,10 +1,14 @@
-n=8
-k=bin(n)[2:]
-a=[]
-for i in range(0,len(k)):
-  if k[i]=='1':
-    a.append(i)
-ans=0
-for i in range(0,len(a)-1):
-  ans=max(ans, a[i+1]-a[i])
-print(ans)
+from typing import List
+
+class Solution:
+  def prefixesDivBy5(self, nums: List[int]) -> List[bool]:
+    k = ""
+    ans = []
+    for i in nums:
+      k += str(i)
+      a = int(k, 2)
+      if a % 5 == 0:
+        ans.append(True)
+      else:
+        ans.append(False)
+    return ans
