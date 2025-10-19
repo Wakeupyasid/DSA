@@ -1,9 +1,8 @@
-words = ["one.two.three","four.five","six"]
-separator = "."
-ans=[]
-for i in words:
-    k=i.split(separator)
-    for j in k:
-        if len(j)>0:
-            ans.append(j)
+nums1 = [1,2,3]
+nums2 = [1,4]
+ans=0
+for i in nums1:
+    if i in nums2:
+        ans=i
+        break
 print(ans)
