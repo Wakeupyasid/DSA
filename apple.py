@@ -1,12 +1,13 @@
-n = 23
-ans=False
-sum=0
-mul=1
-k=n
-while k>0:
-    sum=sum+(k%10)
-    mul=mul*(k%10)
-    k=k//10
-if n%(sum+mul)==0:
-    ans=True
+import sys
+
+max_int = sys.maxsize
+n=5
+ans=0
+for i in range(n,10):
+    print(i)
+    k=str(bin(i)[2:])
+    t='1'*len(k)
+    if t==k:
+        ans=i
+        break
 print(ans)
