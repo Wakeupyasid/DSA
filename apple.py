@@ -1,13 +1,11 @@
-low = 1
-high = 100
+nums = [9,7,3]
+k = 5
 ans=0
-for i in range(low,high+1):
-    k=str(i)
-    if len(k)%2==0:
-        a=k[0:len(k)//2]
-        b=k[len(k)//2:]
-        a_sum = sum(int(digit) for digit in a)
-        b_sum = sum(int(digit) for digit in b)
-        if a_sum == b_sum:
-            ans+=1
+s=sum(nums)
+if s>k & s%k!=0:
+    while True:
+        s=s-1
+        ans+=1
+        if s%k==0:
+            break
 print(ans)
