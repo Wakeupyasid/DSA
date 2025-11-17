@@ -1,12 +1,6 @@
-words = ["adsdf","sfd"]
-
-r1,r2,r3="qwertyuiop","asdfghjkl","zxcvbnm"
-ans=[]
-for i in words:
-    a=False
-    letters = set(i.lower())
-    if letters.issubset(r1) or letters.issubset(r2) or letters.issubset(r3):
-        a=True
-        if a==True:
-            ans.append(i)
+s = "aab"
+ans=[[]]
+for i in range(0,len(s)):
+    for j in range(0,len(s)):
+        print(s[i:j+1],s[i:j+1:-1],end="\n")
 print(ans)
