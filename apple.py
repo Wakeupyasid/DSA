@@ -1,7 +1,6 @@
-nums = [1,1]
-ans=[]
-for i in range(0,len(nums)-1):
-    if nums[i] == nums[i+1]:
-        ans.append(nums[i])
-        break
+nums = [1,8,16]
+ans=0
+for i in nums:
+    if i%2==0:
+        ans=ans | i
 print(ans)
