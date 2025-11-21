@@ -1,6 +1,5 @@
-nums = [1,8,16]
-ans=0
-for i in nums:
-    if i%2==0:
-        ans=ans | i
-print(ans)
+stones = [2,7,4,1,8,1,1]
+while len(stones)>0:
+    stones.sort()
+    print(stones)
+    stones=stones[:-1]
