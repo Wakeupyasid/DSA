@@ -1,5 +1,11 @@
-stones = [2,7,4,1,8,1,1]
-while len(stones)>0:
-    stones.sort()
-    print(stones)
-    stones=stones[:-1]
+nums = [1,100]
+t=[]
+while len(nums) > 0:
+    nums.sort()
+    a=nums[0]
+    b=nums[-1]
+    nums=nums[1:-1]
+    c=(a+b)/2
+    if c not in t:
+        t.append(c)
+print(len(t))
