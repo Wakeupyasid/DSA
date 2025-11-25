@@ -1,8 +1,10 @@
-import numpy as np
-arr = [6,0,7,0,7,5,7,8,3,4,0,7,8,1,6,8,1,1,2,4,8,1,9,5,4,3,8,5,10,8,6,6,1,0,6,10,8,2,3,4]
-sorted_arr = np.sort(arr)
-k = int(0.05 * len(arr))
-trimmed = sorted_arr[k: len(arr) - k]
+from itertools import count
 
-ans=round((sum(trimmed)/len(trimmed)),5)
+nums = [4,4,4,1,2,3]
+k = 3
+ans=0
+for i in nums:
+    a=nums.count(i)
+    if a%k==0:
+        ans+=i
 print(ans)
