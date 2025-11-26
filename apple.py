@@ -1,10 +1,6 @@
-from itertools import count
+import math
 
-nums = [4,4,4,1,2,3]
-k = 3
-ans=0
-for i in nums:
-    a=nums.count(i)
-    if a%k==0:
-        ans+=i
-print(ans)
+n=4
+even_list = [2 * i for i in range(1,n+1)]
+odd_list = [2 * i + 1 for i in range(n)]
+ans=math.gcd(sum(even_list), sum(odd_list))
