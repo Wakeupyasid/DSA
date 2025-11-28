@@ -1,9 +1,13 @@
-nums = [1,1,1]
+import math
+
+n = 10
+t = 2
 ans=0
-for i in range(1,len(nums)-1):
-    a=nums[i-1]
-    b=nums[i+1]
-    c=nums[i]
-    if (a+b)==(c//2):
-        ans+=1
+while True:
+    digits = [int(d) for d in str(n)]
+    if math.prod(digits)%t==0:
+        ans=n
+        break
+    else:
+        n+=1
 print(ans)
