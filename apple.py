@@ -1,13 +1,5 @@
-import math
-
-n = 10
-t = 2
-ans=0
-while True:
-    digits = [int(d) for d in str(n)]
-    if math.prod(digits)%t==0:
-        ans=n
-        break
-    else:
-        n+=1
+nums = [1,3,5,7]
+sum_even = sum(nums[0::2])
+sum_odd = sum(nums[1::2])
+ans=sum_even-sum_odd
 print(ans)
