@@ -1,5 +1,8 @@
-nums = [1,3,5,7]
-sum_even = sum(nums[0::2])
-sum_odd = sum(nums[1::2])
-ans=sum_even-sum_odd
+num = "35427"
+ans=''
+for i in range(len(num)):
+    for j in range(i, len(num)):
+        s=int(num[i:j+1])
+        if s%2!=0 and len(num[i:j+1])>len(ans):
+            ans=num[i:j+1]
 print(ans)
