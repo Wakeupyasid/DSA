@@ -1,8 +1,7 @@
-num = "35427"
-ans=''
-for i in range(len(num)):
-    for j in range(i, len(num)):
-        s=int(num[i:j+1])
-        if s%2!=0 and len(num[i:j+1])>len(ans):
-            ans=num[i:j+1]
+nums = [3,10,5,25,2,8]
+ans=0
+for i in range (len(nums)):
+    for j in range (i+1,len(nums)):
+        if nums[i] ^ nums[j] >ans:
+            ans=nums[i] ^ nums[j]
 print(ans)
