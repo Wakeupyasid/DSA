@@ -1,7 +1,8 @@
-nums = [3,10,5,25,2,8]
+nums = [1,12,-5,-6,50,3]
+k = 4
 ans=0
-for i in range (len(nums)):
-    for j in range (i+1,len(nums)):
-        if nums[i] ^ nums[j] >ans:
-            ans=nums[i] ^ nums[j]
+for i in range (len(nums)-k+1):
+    s=sum(nums[i:i+k])/k
+    if s>ans:
+        ans=s
 print(ans)
