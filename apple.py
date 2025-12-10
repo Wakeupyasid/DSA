@@ -1,8 +1,8 @@
-numRows = 5
-l=[[1]]
-if numRows == 2:
-    l.append([1,1])
-if numRows >2:
-    for i in range(3,numRows+1):
-        k=[]
-        
+nums = [5,1]
+mi=min(nums)
+ma=max(nums)
+ans=[]
+for i in range(mi,ma+1):
+    if i not in nums:
+        ans.append(i)
+print(ans)
