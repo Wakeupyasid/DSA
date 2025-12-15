@@ -1,12 +1,10 @@
-from typing import List
-
-
-class Solution:
-    def divideString(self, s: str, k: int, fill: str) -> List[str]:
-        result = []
-        for i in range(0, len(s), k):
-            group = s[i:i + k]
-            if len(group) < k:
-                group += fill * (k - len(group))
-            result.append(group)
-        return result
+nums = [1,2,10,5,7, 1]
+ans=True
+c=0
+for i in range (len(nums)-1):
+    if nums[i] > nums[i+1]:
+        c=c+1
+    if c==2:
+        ans=False
+        break
+print(ans)
