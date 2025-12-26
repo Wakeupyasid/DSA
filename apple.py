@@ -1,12 +1,9 @@
-prices = [1,2,3,4,5]
-ans=[]
-for i in range(0,len(prices)):
-    c=0
-    for j in range(i+1,len(prices)):
-        if prices[j]<prices[i]:
-            ans.append(prices[i]-prices[j])
-            c=1
-            break
-    if c==0:
-        ans.append(prices[i])
+nums = [2,1,-1]
+ans=-1
+for i in range(0,len(nums)):
+    a=sum(nums[0:i])
+    b=sum(nums[i+1:])
+    if a==b:
+        ans=i
+        break
 print(ans)
