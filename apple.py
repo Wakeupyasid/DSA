@@ -1,9 +1,13 @@
-haystack = "leetcode"
-needle = "leeto"
-ans=-1
-if needle in haystack:
-    for i in range(0, len(haystack)-len(needle)+1):
-        if haystack[i:i+len(needle)]==needle:
-            ans=i
-            break
+s = "01011"
+o=s.count('1')
+l=list('0'*len(s))
+k=0
+for i in range(1,o+1):
+    if l[-1]=='0':
+        l[-1]='1'
+    else:
+        l[k]='1'
+        k+=1
+ans=""
+ans=ans.join(i for i in l)
 print(ans)
