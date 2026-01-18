@@ -1,6 +1,4 @@
-nums = [4,4,5]
-ans=0
-k=max(nums)
-for i in range(len(nums)):
-    ans+=k-nums[i]
+n = 10
+rev=str(n)[::-1]
+ans=abs(int(rev)-n)
 print(ans)
