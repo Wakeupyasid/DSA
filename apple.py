@@ -1,9 +1,11 @@
-nums1 = [1,3,4]
-nums2 = [1,3,4]
-k = 1
+n = 1000
+t=''
+s=0
 ans=0
-for a in nums1:
-    for b in nums2:
-        if a % (b*k)==0:
-            ans+=1
+for i in str(n):
+    if i != '0':
+        t += i
+        s+=int(i)
+if t != "":
+    ans = int(t) * s
 print(ans)
